@@ -1,0 +1,18 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+/ios/
+
+# Logs
+*.log
+logs/
+log/
+
+# User data
+export_presets.cfg
+*.translation
+.local/
+
+# OS junk
+.DS_Store
+Thumbs.db

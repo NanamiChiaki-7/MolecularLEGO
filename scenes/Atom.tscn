@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://catom00001"]
+
+[ext_resource type="Script" path="res://scripts/Atom.gd" id="1_atom"]
+
+[sub_resource type="CircleShape2D" id="circle_shape"]
+radius = 20.0
+
+[node name="Atom" type="Area2D"]
+script = ExtResource("1_atom")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("circle_shape")
